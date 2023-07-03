@@ -36,7 +36,7 @@ class DetailedCurrency {
     constructor(name: string, code: string, symbol: string) {
         // Fix this call to the parent constructor.
 
-        super(name, code);
+        super(name, code, symbol);
 
         // Store the value of the `banknotes` parameter in the corresponding field.
 
